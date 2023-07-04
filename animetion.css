@@ -1,0 +1,159 @@
+#div1{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 150px;
+    font-size: 50px;
+    padding: 50px;
+    animation-name: G;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform:translate(100px 100px);
+}
+@keyframes G{
+    0%{
+        background-color: darkcyan;
+        transform: translate(100px 100px) rotate(-360 deg);
+    }
+}
+#div2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color:khaki;
+    border-radius: 150px;  
+    margin-top: -100px;
+    margin-left: 101px;
+    font-size: 50px;
+    padding: 50px;
+    animation-name: A;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform:translate(100px 100px);
+}
+@keyframes A{
+    0%{
+        background-color:brown;
+        transform: translate(100px 100px) rotate(-360 deg);
+    }
+}
+#div3{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-radius: 150px;
+    margin-top: -100px;
+    margin-left: 201px;
+    font-size: 50px;
+    padding: 50px;
+    animation-name: Y;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform:translate(100px 100px);
+}
+@keyframes Y{
+    0%{
+        background-color:darkorchid;
+        transform: translate(100px 100px) rotate(-360 deg);
+    }
+}
+#div4{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    border-radius: 150px;
+    margin-top: -100px;
+    margin-left: 300px;
+    font-size: 50px;
+    padding: 50px;
+    animation-name: A;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform:translate(100px 100px);
+}
+@keyframes A{
+    0%{
+        background-color: orangered;
+        transform: translate(100px 100px) rotate(-360 deg);
+    }
+}
+#div5{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: turquoise;
+    border-radius: 150px;
+    margin-top: -100px;
+    margin-left: 400px;
+    font-size: 50px;
+    padding: 50px;
+    animation-name: T;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform:translate(100px 100px);
+}
+@keyframes T{
+    0%{
+        background-color:indigo;
+        transform: translate(100px 100px) rotate(-360 deg);
+    }
+}
+#div6{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 150px;
+    margin-top: -100px;
+    margin-left: 500px;
+    font-size: 50px;
+    padding: 50px;
+    animation-name: R;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform:translate(100px 100px);
+}
+@keyframes R{
+    0%{
+        background-color:yellowgreen;
+        transform: translate(100px 100px) rotate(360 deg);
+    }
+}
+#div7{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color:violet;
+    border-radius: 150px;
+    margin-top: -100px;
+    margin-left: 600px;
+    font-size: 50px;
+    padding: 50px;
+    animation-name: I;
+    animation-duration: 7s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform:translate(100px 100px);
+}
+@keyframes I{
+    0%{
+        background-color: aqua;
+        transform: translate(100px 100px) rotate(-360 deg);
+    }
+}
